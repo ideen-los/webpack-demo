@@ -1,8 +1,10 @@
+import myName from "./myName";
+
 function component() {
   const element = document.createElement("div");
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
+  // my script
+  element.textContent = "Hi! My name is " + myName() + " ;-)";
 
   return element;
 }
