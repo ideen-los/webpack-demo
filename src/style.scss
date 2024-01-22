@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+$red: red;
+
+.hello {
+  font-family: "Inter";
+  color: $red;
+  background: url("./icon.png");
+  height: 80vh;
+
+  img {
+    max-height: 100%;
+  }
+}

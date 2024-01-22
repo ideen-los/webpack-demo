@@ -1,1 +1,0 @@
-(()=>{"use strict";document.body.appendChild(function(){const t=document.createElement("div");return t.textContent="Hi! My name is "+prompt("Whats your name?","Robert")+" ;-)",t}())})();
